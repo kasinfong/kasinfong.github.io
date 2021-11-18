@@ -223,7 +223,7 @@ height: 100%;
 }
 @media only screen and (max-width: 500px) {
 * {
-    font-size: 12px;
+    font-size: 16px;
 }
 h1,
 h3 {
@@ -359,7 +359,6 @@ body {
 }
 #main_content {
   /*pointer-events: none;
-  height: auto;
   position: relative;*/
   width: 100%;
   min-height: 100%;
@@ -603,6 +602,7 @@ body {
     margin: 8px 0;
     padding: 2px;
     height: 54px;
+    margin-bottom: 30px;
   }
   #main_content #loader_content > section .section_content > .section_content_inner #inputBox {
     border: 2px solid white;
@@ -646,7 +646,7 @@ body {
       margin: 2px;
     }
     #main_content #loader_content > section .section_content > .section_content_inner .panel_box {
-      width: 100%;
+      width: 90%;
       margin-bottom: 137px;
     }
     #main_content #loader_content > section .section_content > .section_content_inner .panel_box .panel {
