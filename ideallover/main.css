@@ -949,4 +949,16 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  #result_box input {
+    width: 100%;
+    height: 34px;
+    border: none;
+    border-radius: 0px;
+  }
+  #result_box input[type=text]:focus {
+    border: none;
+    outline: none;
+  }
+  #result_box {
+    width: 65%;
+  }
