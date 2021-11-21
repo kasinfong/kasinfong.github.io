@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Create your IDEAL LOVER</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#buttons a[wid]").click(function(){
+                $(this).toggleClass("selected");
+            });
+            $("#buttons a.btn_arrow").click(function(){
+                $("#poem").hide();
+                $("#finish").show();
+            });
+        });
+    </script>
+</head>
+<body lang="tc" class="ready">
+        <div id="main_content" style="">
+            <div id="loader_content" name="cowritepoem">
+    <section name="index" actived="" current="">
+    <div class="section_content ">
+        <div class="section_content_inner">
+            
+            <div class="panel_box small_panel">
+                <h1>
+                    <span tran="message.title">Create your IDEAL LOVER</span>
+                    <span tran="message.title_small"></span>
+                </h1>
+                <p tran="message.subtitle"></p>
+                
+                <div class="panel" id="poem" current="" actived="">
+                    <p tran="message_poem.desc">Name of your Ideal Lover</p>
+                    <div id="result_box"><input type="text" width="100%" /></div>
+                    <p tran="message_poem.desc">Click on the criterias (a maximum of 5 can be picked)</p>
+                    <div id="buttons">
+                        <a wid="0">Handsome</a>
+                        <a wid="1">Taller than me</a>
+                        <a wid="3">Funny</a>
+                        <a wid="4">Shy</a>
+                        <a wid="5">Mature</a>
+                        <a wid="6">Honest</a>
+                        <a wid="7">Respecting</a>
+                        <a wid="8">Caring</a>
+                        <a wid="9">Has a nice voice</a>
+                        <a wid="10">Cute smile</a>
+                        <a wid="11">Smells good</a>
+                        <a wid="12">Smart</a>
+                        <a wid="13">Doesn't smoke</a>
+                        <a wid="14">Sporty</a>
+                        <a wid="15">Treats me like a princess</a>
+                        <a wid="16">Loves small talks</a>
+                        <a wid="17">Hangout anytime</a>
+                        <a wid="18">Loves me more than himself</a>
+                        <a wid="19">Loves me forever</a>
+                    <div class="buttons">
+                        <a class="btn_arrow" tran="message_poem.btn" id="btn_submit_poem">GO<img id="arrow_icon" src="arrow.png" width="19px"/></a>
+                        <p class="" tran="message_poem.remark">*Please think carefully</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="panel" id="finish">
+                <p tran="message_poem_ty.desc">Successful!<br><br>Your IDEAL LOVER will be sent to your place within 3 days.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+</div>
+</body>
+</html>
