@@ -6,3 +6,9 @@ body {
   height: 1400px; 
   margin: auto;
 }
+#frameContainer {
+
+}
+#frameContainer img {
+  width: 100%;
+}
