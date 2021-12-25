@@ -1,13 +1,12 @@
 body {
   background-color: #acb6aa;
+  margin: 0;
 }
 #unityContainer {
-  width: 1100px; 
-  height: 1400px; 
-  margin: auto;
+  position: absolute;
 }
 #frameContainer {
-
+  position: relative;
 }
 #frameContainer img {
   width: 100%;
