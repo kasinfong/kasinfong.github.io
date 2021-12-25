@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 #unityContainer {
-  position: absolute;
   top: 120px;
   left: 70px;
 }
