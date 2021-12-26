@@ -4,6 +4,7 @@ html, body {
 body {
   background-color: #acb6aa;
   margin: 0;
+  /*overflow: hidden;*/
 }
 #unityContainer {
   top: 22%;
@@ -12,12 +13,15 @@ body {
 }
 #frameContainer {
   position: relative;
+  width: 90%;
+  margin: auto;
 }
 #frameContainer img {
   width: 100%;
 }
 #mainContainer {
-  width: 90%;
+  width: 100%;
   height: 100%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
