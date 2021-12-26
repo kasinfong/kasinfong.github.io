@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 #mainContainer {
-  width: 80%;
+  width: 90%;
+  height: 100%;
   margin: auto;
-  padding: 30% 0;
 }
