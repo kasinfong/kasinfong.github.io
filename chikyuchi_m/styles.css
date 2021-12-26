@@ -6,8 +6,9 @@ body {
   margin: 0;
 }
 #unityContainer {
-  top: 120px;
-  left: 70px;
+  top: 22%;
+  left: 20%;
+  background: none !important;
 }
 #frameContainer {
   position: relative;
